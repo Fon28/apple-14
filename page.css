@@ -1,0 +1,1737 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+@media  screen and (min-width:  600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .header-container1{
+        width: 100%;
+        display: flex;
+        background-color: rgba(0,0,0,0.05);
+        padding: 7px 15%;
+        justify-content: space-between;
+        
+    }
+    .header-subChild-1{
+        font-size: small;
+        width: 30;
+        flex-wrap: wrap;
+    padding: 12px 20px;
+    }
+    li,a{list-style-type: none;color:rgb(10, 9, 9);text-decoration: none;margin: auto;}
+    
+    
+    .header-subchild-2{
+        display: flex;
+        margin-right: 10px;
+        padding: 12px 20px;
+    }
+    /* #select1{
+        height: 40px;
+        width: 15rem;
+        margin-right: 10px;
+        border-radius: 8px;
+        border: none;
+        background-color: white;
+    } */
+    #continue{
+        height: 40px;
+        width: 8rem;
+        border-radius:8px ;
+        border: none;
+        background-color: black;
+        color: white;
+    }
+    .container2{
+        width: 100%;
+
+    }
+    .essomba {
+        font-size: 12px;
+        font-weight: 400;
+    } 
+     /* ul li ul li{
+        display: non;
+        
+     } */
+
+      /* ul li:hover ul li{
+        display: block;
+     }  */
+    /* .essomba:hover ul li{
+        display: block;
+        cursor: pointer;
+       
+    }
+    .blaiso ul li{
+     display: none;
+    }
+    .blaiso:hover ul li{
+        display: block;
+        cursor: pointer;
+    }
+    .bruno ul li{
+        display: none;
+    }
+    .bruno:hover ul li{
+        display: block;
+        cursor: pointer;
+    }
+    .mary ul li{
+        display: none;
+    }
+    .mary:hover ul li{
+        display: block;
+        cursor: pointer;
+    }
+    .paola ul li{
+        display: none;
+    }
+    .paola:hover ul li{
+        display: block;
+        cursor: pointer;
+    }
+    .brenda  ul li{
+        display: none;
+    }
+    .brenda:hover ul li{
+        display: block;
+        cursor: pointer;
+    }
+    .megae  ul li{
+        display: none;
+    }
+    .megae:hover ul li{
+        display: block;
+        cursor: pointer;
+    }
+     .camer  ul li{
+        display: none;
+    }
+    .camer:hover ul li{
+        display: block;
+        cursor: pointer;
+    }
+    .youtuber ul li{
+        display: none;
+    }
+    .youtuber:hover ul li{
+        display: block;
+        cursor: pointer;
+    }
+    .abdel ul li{
+        display: none;
+    }
+    .abdel:hover ul li{
+        display: block;
+        cursor: pointer;
+    }
+    .tewamg ul li{
+        display: none;
+    }
+    .tewamg:hover ul li{
+        display: block;
+        cursor: pointer;
+    }
+    .ndocta ul li{
+        display: none;
+    }
+    .ndocta:hover ul li{
+        display: block;
+        cursor: pointer;
+    }
+
+
+
+    a{
+        font-size: 15px;
+    } */
+    /* .nav1{
+        margin-top: 0;
+        background-color: blue;
+    } */
+    
+
+    .ul{
+        display: flex;
+        padding: 7px 17%;
+        justify-content: space-between;
+        margin-top: 0px;
+        /* font-size: 12px;
+        font-weight:300;
+        letter-spacing: -.01em;
+        color: var(--r-globalnav-color); */
+    
+    } 
+    
+    /* .container2{} */
+    #container2-par{font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100%;
+        display: flex;
+        background-color: rgba(0,0,0,0.05);
+        padding: 15px 30%;
+       
+        text-align: center;
+    }
+     /* .nav2{  
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        background-color: #dee5ec;
+        width: 100%;
+        padding-right: 15rem;
+        border-bottom:1px solid lightgray;
+        position: sticky;
+        
+      
+        
+    }  */
+    .sub-two-nav2{
+        display: flex;
+    }
+    .sub-two-nav2 li a{margin: 8px;}.nav1{margin-bottom: 1em;}
+    #btn-buy{
+        background-color:rgb(109, 140, 228);
+        border: none;
+        border-radius: 15px;
+        width: 2.5rem;
+        height: 1.5rem;
+        color: white;
+    }
+    
+    .active{
+      display: flex;
+      justify-content: space-between;
+    max-width: 80vw;
+    }
+    .hide{
+        display: none;
+    }
+    
+    /* add an animation to this class */
+    .store,.Mac{
+        
+        display: flex;
+        margin-left: 17%;
+       justify-content: left;
+        margin-right: 17%;
+        opacity: 1;
+    }
+    
+    .store div{
+        margin:0 3rem;
+    }
+    .container2 .nav1 ul li{
+        font-size: small;
+    }
+    a #store :hover .hide{
+        opacity: 0;
+        display: block;
+    }
+    .active{
+        opacity: 1;
+    }
+    
+    .AWESOME h1{
+        font-weight: bolder;
+       
+    }
+    #red{
+        width: 2rem;
+        height: 2rem;
+        accent-color: red;
+    border-radius: 50%;
+    border: none;
+    }
+    #black{
+        width: 2rem;
+        height: 2rem;
+        accent-color: black;
+    border-radius: 50%;
+    border: none;
+    }
+    input[type='radio' i]{
+        margin-right: 3px;
+        cursor: grab;
+        border: none;
+        
+        
+    }
+    #yellow{
+        width: 2rem;
+        height: 2rem;
+       accent-color:yellow;
+       border-radius: 50%;
+    border: none;background-color: transparent;
+    }
+    #gray{
+        width: 2rem;
+        height: 2rem;
+        accent-color:rgb(158, 149, 149);
+    border-radius: 50%;
+    border: none;
+    padding: 2px;
+    }
+    
+    #blue{
+        width: 2rem;
+        height: 2rem;
+        
+        border: none;
+        accent-color:rgb(170, 170, 206);
+     border-radius: 50%;
+     border: none;
+    }
+    #pink{width: 2rem;
+        height: 2rem;
+        border: none;
+        accent-color:rgb(228, 140, 169);
+    border-radius: 50%;
+    
+    
+    }
+    .two{
+    
+        display: flex;
+        padding: 2px;
+        justify-content: space-between;
+        margin:0 17%;
+    }
+    .button button{
+    
+        margin-right:0.5rem ;
+        margin-top: 20px;
+        transition: all 1s 0 ease;
+    }
+    
+    #gray:hover{
+        padding: 3cqmax;
+        border: 3px rgb(8, 16, 87) solid;
+    }
+    .dpic{
+        /* background-image: url(pic/ten2.png);background-position: center;background-size: cover; */
+        justify-content: center;
+        height: 100vh;
+        border: 1px solid black;
+        width: vw;
+    }
+    .fon{
+        justify-content: center;
+        padding-top: 15rem;
+    }
+    .perfect{
+        margin-left: 15rem;
+    }
+    .fivePhones{
+        border: 1px solid black;
+        background-color: rgb(255, 254, 254);
+        overflow: hidden;
+    }
+    .big{
+        text-align: center;
+        height: 7rem;
+    }
+    .big h2,.big h5,.big button{
+        margin: 1rem;
+    }
+    .big h2{
+        font-weight: 500;
+    }.big h5{
+        font-weight: 600;
+    }
+    .big button{
+        background-color:#0071e3;
+        border: 0;
+        border-radius:25px ;
+        width: 4rem;
+        color: #ffff;
+        height: 2.5rem;
+        border-bottom: 2rem;
+    }
+    .gray{
+       height:  4rem;
+       width: 100%;
+       background-color: #0000000A;
+       margin-top: 3rem;
+    }
+    .dpic img{
+        position:absolute;
+        left: 40%;
+        animation: move 5s ease 0s 1;
+    
+    }
+    .dpic img::after{
+    position:relative;
+    left: calc(40% + 5.5rem);
+    }
+    @keyframes move {
+     5%{ transform :translate(4.5rem,); 
+    transform: rotateZ(5deg);}
+     100%{
+        /* transform :translate(0.5rem);  */
+        transform :translate(5.5rem); 
+        /* transform :translate(0.5rem);  */
+        
+     } 
+    }
+    /* this is for the big div */
+    
+    .Big > h2{
+     
+      margin-top: -10px;
+      margin-bottom: -20px;
+      font-weight: 700;
+    
+    
+    }
+    @media  screen and (min-width:  500px) {
+        
+    }
+    
+    .this{
+        margin-top: 5rem;
+        display: flex;
+        justify-content:center;
+    }
+     div.Big{
+        padding-top: 20px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+         text-align: center;
+        border-radius: 10px;
+        background-color: rgb(243, 243, 243);
+        height: 600px;
+        width:400px;
+        margin-right: 3rem;
+    
+    }
+    /* .sub-tougher-2{
+        background-image: url(pic/download\ \(23\).png);
+        background-color: blue;
+       
+    } */
+    
+    #pic1{
+        width: 20rem;
+       
+       
+    }
+    .sub-tougher{
+    display: inline-block;
+       text-align: center;
+         border-radius: 10px;
+        background-color: rgb(243, 243, 243);
+        height:20rem;
+        width:20rem;
+      margin: 1rem;
+     
+/* padding-bottom: 6rem; */
+    }
+    
+    
+    #looongest{
+    
+        background-image: url(pic/bettery.svg);
+        background-position: center;
+        background-size: cover;
+        padding: 3px;
+    
+    }
+    /* .text{ 
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: radial-gradient(ellipse,var(rgb(6, 34, 6)) 0%,var(green) 40%,var(rgb(12, 231, 12)) 100%);
+        background-position-y: -19px;
+    } */
+    .tougher{
+        border-radius: 10px;
+        justify-content: center;
+      
+        height: 600px;
+        width: 350px;
+        margin-right: 3rem;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .Big img{
+        margin-top: -20px;
+        margin-bottom: -30px;
+        transform: scale(0.75);
+        
+       margin-right: 3rem;
+    }
+    .Big span{
+        margin-top: -5px;
+        margin-bottom: -20px;
+        
+    }
+    .square{
+        display: flex;
+    margin-left: 1.5rem;
+    }
+    .square div{
+        margin: 1rem;
+        margin-top: -20px;
+    }
+    
+    /* this is for the end big div */
+    /* this is for all ten div after the three first created */
+    
+    .grid{
+        justify-content: center;
+        text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 10%;
+    margin-bottom: 100px;
+    
+    }
+    
+    .grid div {
+        border-radius: 10px;
+      
+       background-color:  rgb(243, 243, 243);
+       margin: 1rem;
+       height: 16rem;
+        width: 25rem;
+       background-position: center;
+       background-size:cover ;
+    }
+    #two-back-ground{
+          background-image: url(pic/ONE\ \(55\).png);
+           background-position: center;
+        background-size:cover ;
+    }
+    #two2 img{
+       width: 15rem;
+    }
+    #two2{
+      
+        width: 25rem;
+    }
+    .one1 p{
+      margin-top:12rem ;
+    }
+    .one1{
+        
+        background-image: url(pic/transwater.jpg);
+        
+    }
+    .three button{
+       height: 2rem;
+       margin-top: 13rem;
+       margin-right: 1rem;
+    }
+    .three p{
+        margin-top:12rem ;
+        text-align: center;
+        padding: 0 35px;
+        color: white;
+        font-weight: 600;
+    }
+    .three{
+    display: flex;
+        background-image: url( pic/download\ \(50\).png);
+    }
+    #four p{
+        text-align: center;
+        color: white;
+        font-weight: 600;
+     
+    
+        margin-top: 26rem;
+    }
+    #four{
+      
+        background-image: url( pic/download\ \(8\).png);
+     height: 35rem;
+     width: 25rem;
+    }
+    #five5 img{
+        height: 100%;
+        width: 100%;
+        border-radius: inherit;
+    }
+    #five5{
+        border-radius: 10px;
+        height: 18rem;
+        margin-top: -18rem;
+    margin-right:30rem;
+    width: 25rem;
+        
+       
+    }
+    #six6{
+        width: 25rem;
+        background-image: url(pic/six6.png);
+    }
+    #six6 h4{
+        color: white;
+        font-weight: 600;
+        margin: 28% 30%;
+    }
+    .seven7{
+        background-image: url(pic/one2.png);
+    }
+    
+    #Eight{
+    width: 25rem;
+    height: 30rem;
+    
+    }
+    #Eight p{
+        margin-bottom: 1rem;
+    }
+    #Eight h3{
+        margin-top: -1rem;
+        font-weight: 500;
+    }
+    
+    #Eight img{
+        margin-bottom: 0;
+        margin-top: 2.9rem;
+    }
+    #nine{
+     
+        color:white;
+        background-image: url(pic/Verizon_files/three_girls.jpg);
+        height: 30rem;
+        width: 25rem;
+    }#nine h2{
+        font-weight: 500;
+        margin: 0;
+    }
+    #nine section{
+        margin-top:22rem ;
+    }
+    /* this is for the end of al ten div after the three first created */
+    
+    /* way to save on iphone */
+    
+    .save-iphone{
+        height: 8rem;
+        width: 100%;
+    }
+    
+    .save-iphone h1{
+        margin-left: 8rem;
+        font-size: 48px;
+        font-weight: 700;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-bottom:15rem ;
+        letter-spacing: 0.009em;
+       
+    }
+
+    #iphone{
+        display: flex;
+        flex-direction: column-reverse;
+        letter-spacing: inherit;
+        line-height: inherit;
+        margin: 0;
+        text-decoration: none;
+        /* white-space: nowrap; */
+        opacity: .88;
+    }
+
+
+    /*end of way to save on iphone */
+    
+    /* this is the beginig of the three container div */
+    
+    .big-container{
+       
+        justify-content: center;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    margin-top: 10rem;
+    }
+    .big-container div h3{
+        font-weight: 700;
+        margin-top: 2rem;
+    }
+    .big-container div a{
+        color: #0071e3;
+    }
+    .big-container div{
+    
+        text-align: center;
+    height: 30rem;
+    border-radius: 15px;
+    width: 20rem;
+    background-color: rgb(243, 243, 243);
+    margin: 1rem;
+    
+    }
+    .big-container img{
+        width: 100%;
+        margin-top: 2rem;
+        border-bottom-left-radius: 15px ;
+        border-top-right-radius:  15px;
+    
+    
+    }.imgs{
+        margin-top:2rem;
+    }
+    #imgsA {
+        padding:0 60px;
+    }
+    .imgs img{
+        margin-bottom: 0;
+        height: 50%;
+        width: 25%;
+    }
+    .imgs2{
+        display: flex;
+        margin-top: 1rem;
+    }
+    .imgs2 section{
+    font-size: smaller;
+    width: 50%;
+    
+    justify-content: space-between;
+    }
+    #oneimg{
+        margin-top: 2rem;
+      width: 50px;
+      height: 24px;
+        margin: 0;
+         
+    }
+    .sub-big3{
+        justify-content: center;
+        overflow: hidden;
+    }
+    .sub-big3 img{
+        width: 200px;
+        margin:0 auto;
+        margin-top: 6rem;
+    }
+    .big-container div a:hover{
+        color: #0071e3;
+        text-decoration: underline;
+    }
+    .sub-big1 img{
+        margin-top: 2rem;
+    }
+    
+    /* this is the beginig of the three container div */
+    
+    
+    /* this is the second set of three div */
+    
+     .design-head{
+        margin:3rem ;
+    } 
+    .icon-div{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem auto;
+        height: fit-content;
+        flex-wrap: wrap;
+        /* margin-right: 10rem; */
+        
+    }
+    .icon-div div a:hover{
+        color: #0071e3;
+        text-decoration: underline;
+    }
+    .icon-div div a{
+        color: #0071e3;
+        padding:5% 5%;
+        font-size: 15px;
+    }
+    .icon-div div{
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(243, 243, 243);
+        width: 21rem;
+        height: 30rem;
+        margin: 1rem;
+        border-radius: 10px;
+       
+    }
+    .icon_1 img{
+        margin-top: 40px;
+    }
+    .icon-2 img{
+        margin-top: 1.95rem;
+        border-radius: inherit
+    }
+    .icon-3 img{
+        margin-top:2.5rem;
+        border-radius: inherit
+    }
+    
+    /* this is the second set of three div */
+    
+    /* this is for The larg div that takes foour column for each row */
+    section{display: flex;flex-direction: column;}
+    .phone-2 button{
+    height: 2rem;
+    width: 3rem;
+    text-align: center;
+    color: white;
+    background-color: #0071e3;
+    border-radius: 15px;
+    border: none;
+    }
+    .daughter-div-1{
+        display: flex;
+        flex-direction: row;
+        margin: 10%;
+    }
+    
+    #phone-anchor{
+        color: #0071e3;
+    }
+    #phone-2-section h3,#phone-2-section p{
+        margin: 0rem;
+    }
+    .phone-2 *{
+        margin: 1rem auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .phone-2 {
+        margin: 2rem;
+        border-bottom: 1px solid #869db4;
+        width: 14rem;
+        height: fit-content;
+    }
+    .phone-2 img{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .mother-div{
+        display: flex;
+        flex-direction: column;
+    }
+    /* .daughter-div-2{
+        margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    flex-wrap: wrap;
+    } */
+    .daughter-div-2 div{
+        width: 12rem;
+        margin: 2rem;
+    }
+    /* this is for The end of the larg div that takes foour column for each row */
+    
+    
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-container1{
+    width: 100%;
+    display:flex;
+    background-color: rgba(0,0,0,0.05);
+    padding: 7px 15%;
+    justify-content: space-between;
+    
+}
+.header-subChild-1{
+    font-size: small;
+    width: 30;
+    flex-wrap: wrap;
+padding: 12px 20px;
+}
+li,a{list-style-type: none;
+    color:rgb(10, 9, 9);
+    text-decoration: none;
+    margin: auto;
+     /* font-size: 12px;
+     font-weight: 400; */
+   }
+
+
+
+.header-subchild-2{
+    display: flex;
+    margin-right: 10px;
+    padding: 12px 20px;
+}
+/* #select1{
+    height: 40px;
+    width: 15rem;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+} */
+#continue{
+    height: 40px;
+    width: 8rem;
+    border-radius:8px ;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.container2{
+    width: 100%;
+  
+}
+a{
+    font-size: 15px;
+}
+.nav1{
+    margin-top: 0;
+}
+/* .ul{
+    display: flex;
+    padding: 7px 17%;
+    justify-content: space-between;
+    margin-top: 0px;
+    background-color: pink;
+
+} */
+
+/* .container2{} */
+#container2-par{font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+width: 100%;
+    display: flex;
+    background-color: rgba(0,0,0,0.05);
+    padding: 15px 30%;
+   
+    text-align: center;
+}
+.nav2{
+
+    display: flex;
+   padding-left: 14rem;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #ffffff;
+    /* background-color: #dee5ec; */
+    width: 100%;
+    padding-right: 15rem;
+    border-bottom:1px solid lightgray;
+    top: 0;
+    position: sticky;
+    color: var(--r-globalnav-color);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+  
+   
+}
+.sub-two-nav2{
+    display: flex;
+    margin-left: 25rem;
+}
+.sub-two-nav2 li a{margin: 8px;
+   
+}
+
+
+#alice{
+     color: rgb(106, 145, 145);
+}
+
+#btn-buy{
+    background-color:rgb(109, 140, 228);
+    border: none;
+    border-radius: 980px;
+    width: 2.5rem;
+    height: 1.5rem;
+    color: white;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    border-style: solid;
+    border-width: 1px;
+    min-width: 45px;
+   
+}
+
+.active{
+  display: flex;
+  justify-content: space-between;
+max-width: 80vw;
+}
+.hide{
+    display: none;
+}
+
+/* add an animation to this class */
+.store,.Mac{
+    
+    display: flex;
+    margin-left: 17%;
+   justify-content: left;
+    margin-right: 17%;
+    opacity: 1;
+}
+
+.store div{
+    margin:0 3rem;
+}
+.container2 .nav1 ul li{
+    font-size: small;
+}
+a #store :hover .hide{
+    opacity: 0;
+    display: block;
+}
+.active{
+    opacity: 1;
+}
+
+.AWESOME h1{
+    font-weight: bolder;
+   
+}
+#red{
+    width: 2rem;
+    height: 2rem;
+    accent-color: red;
+border-radius: 50%;
+border: none;
+}
+#black{
+    width: 2rem;
+    height: 2rem;
+    accent-color: black;
+border-radius: 50%;
+border: none;
+}
+input[type='radio' i]{
+    margin-right: 3px;
+    cursor: grab;
+    border: none;
+    
+    
+}
+#yellow{
+    width: 2rem;
+    height: 2rem;
+   accent-color:yellow;
+   border-radius: 50%;
+border: none;background-color: transparent;
+}
+#gray{
+    width: 2rem;
+    height: 2rem;
+    accent-color:rgb(158, 149, 149);
+border-radius: 50%;
+border: none;
+padding: 2px;
+}
+
+#blue{
+    width: 2rem;
+    height: 2rem;
+    
+    border: none;
+    accent-color:rgb(170, 170, 206);
+ border-radius: 50%;
+ border: none;
+}
+#pink{width: 2rem;
+    height: 2rem;
+    border: none;
+    accent-color:rgb(228, 140, 169);
+border-radius: 50%;
+
+
+}
+.two{
+
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+    margin:0 17%;
+    top: 0;
+    position: sticky;
+}
+.button button{
+
+    margin-right:0.5rem ;
+    margin-top: 20px;
+    transition: all 1s 0 ease;
+}
+
+#gray:hover{
+    padding: 3cqmax;
+    border: 3px rgb(8, 16, 87) solid;
+}
+.dpic{
+    justify-content: center;
+    height: 100vh;
+    border: 1px solid black;
+    width: vw;
+}
+.fivePhones{
+    border: 1px solid black;
+    background-color: rgb(255, 254, 254);
+    overflow: hidden;
+}
+.big{
+    text-align: center;
+    height: 7rem;
+}
+.big h2,.big h5,.big button{
+    margin: 1rem;
+}
+.big h2{
+    font-weight: 500;
+}.big h5{
+    font-weight: 600;
+}
+.big button{
+    background-color:#0071e3;
+    border: 0;
+    border-radius:25px ;
+    width: 4rem;
+    color: #ffff;
+    height: 2.5rem;
+    border-bottom: 2rem;
+}
+.gray{
+   height:  4rem;
+   width: 100%;
+   background-color: #0000000A;
+   margin-top: 3rem;
+}
+.dpic img{
+    position:absolute;
+    left: 40%;
+    animation: move 5s ease 0s 1;
+
+}
+.dpic img::after{
+position:relative;
+left: calc(40% + 5.5rem);
+}
+@keyframes move {
+ 5%{ transform :translate(4.5rem,); 
+transform: rotateZ(5deg);}
+ 100%{
+    /* transform :translate(0.5rem);  */
+    transform :translate(5.5rem); 
+    /* transform :translate(0.5rem);  */
+    
+ } 
+}
+/* this is for the big div */
+
+.Big > h2{
+ 
+  margin-top: -10px;
+  margin-bottom: -20px;
+  font-weight: 700;
+
+
+}
+
+
+.this{
+    margin-top: 5rem;
+    display: flex;
+    justify-content:center;
+}
+ div.Big{
+    padding-top: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+     text-align: center;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    height: 600px;
+    width:400px;
+    margin-right: 3rem;
+
+}
+
+#pic1{
+    width: 97%;
+   border-radius: 1rem;
+    height: 17rem;
+    margin-left: 1rem;
+}
+.sub-tougher{
+display: inline-block;
+   text-align: center;
+     border-radius: 10px;
+    background-color: white;
+    height:25rem;
+    width:23rem;
+  margin: 1rem;
+  background-color: rgb(243, 243, 243);
+  /* margin-bottom:3rem; */
+  margin-right: 4rem;
+  padding-bottom: 10px;
+  
+}
+
+
+#looongest{
+
+    background-image: url(pic/bettery.svg);
+    background-position: center;
+    background-size: cover;
+    padding: 3px;
+
+}
+/* .text{ 
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: radial-gradient(ellipse,var(rgb(6, 34, 6)) 0%,var(green) 40%,var(rgb(12, 231, 12)) 100%);
+    background-position-y: -19px;
+} */
+.tougher{
+    border-radius: 10px;
+    justify-content: center;
+  
+    height: 600px;
+    width: 350px;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.Big img{
+    margin-top: -20px;
+    margin-bottom: -30px;
+    transform: scale(0.75);
+    
+   margin-right: 3rem;
+}
+.Big span{
+    margin-top: -5px;
+    margin-bottom: -20px;
+    
+}
+.square{
+    display: flex;
+margin-left: 1.5rem;
+}
+.square div{
+    margin: 1rem;
+    margin-top: -20px;
+}
+
+/* this is for the end big div */
+/* this is for all ten div after the three first created */
+
+.grid{
+    justify-content: center;
+    text-align: center;
+display:flex;
+flex-wrap: wrap;
+margin:0 10%;
+margin-bottom: 100px;
+
+}
+
+.grid div {
+    border-radius: 10px;
+  
+   background-color:  rgb(243, 243, 243);
+   margin: 1rem;
+   height: 16rem;
+    width: 25rem;
+   background-position: center;
+   background-size:cover ;
+}
+#two-back-ground{
+      background-image: url(pic/ONE\ \(55\).png);
+       background-position: center;
+    background-size:cover ;
+}
+#two2 img{
+   width: 15rem;
+}
+#two2{
+  
+    width: 25rem;
+}
+.one1 p{
+  margin-top:12rem ;
+}
+.one1{
+    
+    background-image: url(pic/transwater.jpg);
+    
+}
+.three button{
+   height: 2rem;
+   margin-top: 13rem;
+   margin-right: 1rem;
+}
+.three p{
+    margin-top:12rem ;
+    text-align: center;
+    padding: 0 35px;
+    color: white;
+    font-weight: 600;
+}
+.three{
+display: flex;
+    background-image: url( pic/download\ \(50\).png);
+}
+#four p{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+ 
+
+    margin-top: 26rem;
+}
+#four{
+  
+    background-image: url( pic/download\ \(8\).png);
+ height: 35rem;
+ width: 25rem;
+}
+#five5 img{
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+}
+#five5{
+    border-radius: 10px;
+    height: 18rem;
+    margin-top: -18rem;
+margin-right:30rem;
+width: 25rem;
+    
+   
+}
+#six6{
+    width: 25rem;
+    background-image: url(pic/six6.png);
+}
+#six6 h4{
+    color: white;
+    font-weight: 600;
+    margin: 28% 30%;
+}
+.seven7{
+    background-image: url(pic/one2.png);
+}
+
+#Eight{
+width: 25rem;
+height: 30rem;
+
+}
+#Eight p{
+    margin-bottom: 1rem;
+}
+#Eight h3{
+    margin-top: -1rem;
+    font-weight: 500;
+}
+
+#Eight img{
+    margin-bottom: 0;
+    margin-top: 2.9rem;
+}
+#nine{
+ 
+    color:white;
+    background-image: url(pic/Verizon_files/three_girls.jpg);
+    height: 30rem;
+    width: 25rem;
+}#nine h2{
+    font-weight: 500;
+    margin: 0;
+}
+#nine section{
+    margin-top:22rem ;
+}
+/* this is for the end of al ten div after the three first created */
+
+/* way to save on iphone */
+
+.save-iphone{
+    height: 8rem;
+    width: 50%;
+    margin-left: 15em;
+    
+}
+
+
+.save-iphone h1{
+    margin-left: 8rem;
+    font-size: 48px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom:15rem ;
+    letter-spacing: 0.009em;
+   
+}
+/*end of way to save on iphone */
+
+/* this is the beginig of the three container div */
+
+.big-container{
+   
+    justify-content: center;
+width: 100%;
+height: fit-content;
+display: flex;
+flex-wrap: wrap;
+margin: 2rem;
+margin-top: 10rem;
+}
+.big-container div h3{
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.big-container div a{
+    color: #0071e3;
+}
+.big-container div{
+
+    text-align: center;
+height: 30rem;
+border-radius: 15px;
+width: 20rem;
+background-color: rgb(243, 243, 243);
+margin: 1rem;
+
+}
+.big-container img{
+    width: 100%;
+    margin-top: 2rem;
+    border-bottom-left-radius: 15px ;
+    border-top-right-radius:  15px;
+
+
+}.imgs{
+    margin-top:2rem;
+}
+#imgsA {
+    padding:0 60px;
+}
+.imgs img{
+    margin-bottom: 0;
+    height: 50%;
+    width: 25%;
+}
+.imgs2{
+    display: flex;
+    margin-top: 1rem;
+}
+.imgs2 section{
+font-size: smaller;
+width: 50%;
+
+justify-content: space-between;
+}
+#oneimg{
+    margin-top: 2rem;
+  width: 50px;
+  height: 24px;
+    margin: 0;
+     
+}
+.sub-big3{
+    justify-content: center;
+    overflow: hidden;
+}
+.sub-big3 img{
+    width: 200px;
+    margin:0 auto;
+    margin-top: 6rem;
+}
+.big-container div a:hover{
+    color: #0071e3;
+    text-decoration: underline;
+}
+.sub-big1 img{
+    margin-top: 2rem;
+}
+
+/* this is the beginig of the three container div */
+
+
+/* this is the second set of three div */
+
+ .design-head{
+    margin:3rem ;
+} 
+.icon-div{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    height: fit-content;
+    flex-wrap: wrap;
+    
+}
+.icon-div div a:hover{
+    color: #0071e3;
+    text-decoration: underline;
+}
+.icon-div div a{
+    color: #0071e3;
+    padding:5% 5%;
+    font-size: 15px;
+}
+.icon-div div{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    width: 21rem;
+    height: 30rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.icon_1 img{
+    margin-top: 40px;
+}
+.icon-2 img{
+    margin-top: 1.95rem;
+    border-radius: inherit
+}
+.icon-3 img{
+    margin-top:2.5rem;
+    border-radius: inherit
+}
+
+/* this is the second set of three div */
+
+/* this is for The larg div that takes foour column for each row */
+section{display: flex;flex-direction: column;}
+.phone-2 button{
+height: 2rem;
+width: 3rem;
+text-align: center;
+color: white;
+background-color: #0071e3;
+border-radius: 15px;
+border: none;
+}
+.daughter-div-1{
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+}
+
+#phone-anchor{
+    color: #0071e3;
+}
+#phone-2-section h3,#phone-2-section p{
+    margin: 0rem;
+}
+.phone-2 *{
+    margin: 1rem auto;
+    justify-content: center;
+    text-align: center;
+}
+.phone-2 {
+    margin: 2rem;
+    border-bottom: 1px solid #869db4;
+    width: 14rem;
+    height: fit-content;
+}
+.phone-2 img{
+    display: flex;
+    flex-direction: column;
+}
+
+.mother-div{
+    display: flex;
+    flex-direction: column;
+}
+.daughter-div-2{
+    margin-top: -2rem;
+display: flex;
+justify-content: center;
+text-align: center;
+flex: 1;
+flex-wrap: wrap;
+}
+.super h1,.super p,.super h3,.super h4{
+      font-size: 14px;
+    color: #1d1d1f;
+}
+.daughter-div-2 div{
+ 
+    width: 12rem;
+    margin: 2rem  1rem ;
+
+}
+.active{
+    justify-content: center;
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+} 
+.active.action{
+    transform: translate(0px);
+    opacity: 1;
+}
+.three-div1{
+    width: 100%;
+   
+    justify-content:space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+   margin: auto;
+   margin-left: 4rem;
+   margin-top: 2rem;
+ margin-bottom: 8rem;
+
+}
+.three-div1 section h2{
+    font-weight:600;
+}
+.three-div1 section{
+    align-items: center;
+    text-align: center;
+   width: 25rem;
+   margin: 0 10rem;
+   
+   margin-left: 3rem;
+}
+/* this is for The end of the larg div that takes foour column for each row */
+.gray-div{
+    background-color: rgb(209, 207, 207);
+    height:fit-content;
+    width: 1800px;
+}
+.graygray-div{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem 7%;
+border-bottom:1px solid #63638b;
+padding-bottom: 5rem;
+width: 70%;
+
+    
+    
+}
+.graygray-div section h3{
+    font-weight: 600;
+    
+}
+.graygray-div section{
+   width: 12rem; 
+}
+
+
+/* this is for The end of the larg div that takes foour column for each row */
+
+.line{
+    
+   
+    display: flex;
+    padding-left: 18.5rem;
+    
+    
+}
+.span-3{
+   
+    margin-left:30px;
+   
+}
+.span-2{
+    margin-left:30px;
+}
+/* .spanning{
+    display: flex;
+    justify-content: space-evenly;
+   width: 80%;
+   height: 40px;
+   margin-left: 55px;
+}
+.spanning-2{
+    display: flex;
+    justify-content: space-evenly;
+   width: 80%;
+   height: 40px;
+   margin-left: 55px;
+} */
+.tables-2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 430px;
+     /* background-color: white;   */
+    width: 1300px;
+    margin-left: 13rem; 
+    padding-top: 20px;
+}
+.item-1{
+    padding-top: 10px;
+}
+.item-2{
+    padding-top: 20px;
+}
+.item-3{
+    padding-top: 10px;
+}
+.item-4{
+    padding-top: 15px
+}
+.item-5{
+    padding-top: 10px;
+}
+.item-6{
+    padding-top: 10px;
+}
+.hier-8{
+    padding-top: 15px;
+}
+.item-9{
+    padding-top: 10px;
+}
+.item-12{
+    padding-top: 15px
+}
+.item-15{
+    padding-top: 10px;
+}
+.item-17{
+    padding-top: 10px;
+}
+.retailers{
+    margin-left: 18.7rem;
+    border-bottom: black, 2rem; 
+}
+.retailers a{
+    text-decoration: underline;
+    padding-bottom: 10px;
+    color: #0071e3;
+}
+.right{
+    margin-left: 18.7rem;
+}

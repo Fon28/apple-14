@@ -1,0 +1,135 @@
+
+.samen{
+    /* background-color: gainsboro; */
+    height: 21rem;
+   width: 100%;
+   margin-top: -10px;
+   background-color: #ffffff;
+
+}
+
+.search{
+    width: 50%;
+    height: 9rem;
+    /* background-color: gainsboro; */
+    margin-left: 24rem;
+    outline: none;
+    background-color: #ffffff;
+    
+   
+   
+}
+
+
+.comp{
+    width: 85%;
+    height: 8rem;
+    margin-top: 10px;
+    margin-left: 1rem;
+    border: none;
+
+  
+}
+::placeholder{
+    color:  black;
+    font-size: x-large;
+    outline: none;
+}
+input{
+    /* background-color: gainsboro; */
+    border: none;
+    background-color: #ffffff;
+    font-size: x-large;
+}
+
+
+.quick{
+    margin-left: 1px;
+    padding-bottom: 10px;
+}
+
+ul{
+    
+    list-style: none;
+    cursor: pointer;
+    gap:23px;
+    margin-left: -1rem;
+    color: rgb(106, 145, 145);
+   
+    
+}
+a{
+    margin-left: 10px;
+top: 10px;
+}
+.list{
+    /* background-color: aqua; */
+    height: 13rem;
+    width: 80%;
+    margin-left: 24rem;
+   justify-self: center;
+   display: block;
+   padding-top: 10px;
+   font-size: x-small;
+   font-weight: 10px;
+   font-family: 'Times New Roman', Times, serif;
+  
+
+}
+.naim{
+    /* position: fixed; */
+    background-color: red;
+    height: 95%;
+   width: 100%;
+   
+} 
+
+.everybod{
+    /* background-color: #ffffff; */
+    /* background-color: rgb(176, 166, 166);   */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%; 
+    
+   
+  
+  
+    
+}
+.everybod{ 
+    height: 0;
+    overflow: hidden;  
+     transition: .8s;
+    width: 100%;
+     opacity: 0;
+ }
+ .everybod.active{
+   height: 40rem;
+   flex-direction: column;
+   justify-content: space-between;
+   opacity: 1; 
+   width: 100vw;
+   top: 0rem; 
+   margin-bottom: -2rem;
+   perspective: 100vh;
+  
+   transform: scaleX(1.5);
+   top: -10.4px;
+
+} 
+.benjo {
+    display: flex;
+    padding: 7px 17%;
+    justify-content: space-between;
+    cursor: pointer;
+    /* background-color: gainsboro; */
+    background-color: #ffffff;
+    padding-top: 6px;  
+    width: 100%;
+    font-weight: 100;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.06em; 
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+     color: rgb(106, 145, 145);
+}
